@@ -233,6 +233,7 @@ section {
     color: transparent;
 }
 
+/* Scroll Bar */
 ::-webkit-scrollbar {
     width: 20px;
 }
@@ -244,3 +245,5 @@ section {
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(to bottom, #009dff, #ff00ff);
 }
+
+/* Project */
