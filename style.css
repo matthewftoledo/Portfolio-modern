@@ -261,6 +261,7 @@ section {
   justify-content: center;
   text-align: center;
   gap: 1.5rem;
+  border: 2px solid black;
   border-radius: 3rem;
   cursor: pointer;
   transition: 0.3s ease-in-out;
@@ -270,4 +271,25 @@ section {
   background-color: black;
   color: white;
   transform: translateY(-10px) scale(1.02);
+}
+
+.project-card img {
+  width: 20vw;
+  border-radius: 1rem;
+}
+
+.project-card:hover .btn {
+  border: 2px solid white;
+  color: white;
+}
+
+.project-card:hover .btn:hover {
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+}
+
+.project-card h3 {
+  font-size: 2rem;
+  font-weight: 500;
 }
