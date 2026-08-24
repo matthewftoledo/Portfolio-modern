@@ -356,3 +356,16 @@ footer ul li a {
   font-size: 300;
   margin-top: 2rem;
 }
+
+/* Responsiveness */
+@media (max-width: 1280px) {
+  
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 600px) {
+  
+}
