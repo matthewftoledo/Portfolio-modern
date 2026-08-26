@@ -359,7 +359,26 @@ footer ul li a {
 
 /* Responsiveness */
 @media (max-width: 1280px) {
-  
+  header {
+    padding: 1rem 2rem;
+    gap: 2rem;
+  }
+  .about .about-container {
+    gap: 3rem;
+  }
+  .experience-info {
+    flex-direction: column;
+  }
+  .input-box input {
+    padding: 2rem 5rem;
+    font-size: 2.5rem;
+  }
+  .input input::placeholder {
+    font-size: 2.5rem;
+  }
+  .input-box i {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 768px) {
