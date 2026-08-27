@@ -392,6 +392,9 @@ footer ul li a {
   header .visit-btn {
     display: none;
   }
+  .about-container {
+    flex-direction: column;
+  }
   .input-box input {
     padding: 1rem 2rem;
     font-size: 1.8rem;
@@ -444,5 +447,16 @@ footer ul li a {
   }
   .about-container img {
     width: 80vw;
+  }
+  .input-box input {
+    padding: 0.5rem 3rem;
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  .input-box input::placeholder {
+    font-size: 1.5rem;
+  }
+  footer ul {
+    gap: 1rem;
   }
 }
